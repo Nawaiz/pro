@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Mona-Sans bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Mona-Sans bold'), url('Mona-Sans-bold.woff') format('woff');
+    }
+body{
+    background-image: linear-gradient(54deg,rgb(13, 17, 23) 70%, rgb(1, 37, 2));
+    background-repeat: no-repeat;
+    background-position-x: 150px; 
+    background-color:rgb(13, 17, 23);
+}  
+.container{
+    display: flex;
+    width: auto;
+    height: 70px;
+    color: white;
+    justify-content: left;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.navitem a{
+    margin: 4px 20px ;
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+.navitem a:hover{
+    color:rgb(185, 187, 188);
+}
+.container2{
+    display: flex;
+    width: auto;
+    height: 70px;
+    justify-content: right;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+   margin-left: auto;
+    
+}
+.navright input{
+    background-color:#283041;
+    border-color: #636979;
+    padding: 8px;
+    border-radius: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.navright input:active{
+    background-color: white;
+    border: none;
+
+}
+.navright input:focus{
+    background-color: white;
+    border: none;
+}
+.navright input:hover{
+    background-color: white;
+    border: white 1px solid;
+}
+.search{
+    background-color:#283041;
+    border-color: #636979;
+    padding: 8px;
+    border-radius: 6px;
+    color: white;
+}
+.mian_heading , h1{ 
+    color: white;
+    font-size: 2.3em;
+    font-family:'Mona-Sans bold';
+    font-weight: 600;
+    word-spacing: 5px;
+}
+.mian_heading{
+    margin-bottom: 0px;
+}
+h1{
+    margin-left: 120px;
+    margin-top: 130px;
+    margin-bottom: 0px;
+   
+}
+.mianpara,p{
+    color:rgb(90, 93, 95);
+    font-family: sans-serif;
+    font-size: 25px;
+    margin-left: 80px;
+    margin-top: 0px;
+}
+.lighten{
+    
+    background-color: rgb(127, 67, 197);
+    transition: box-shadow .3s ease-out;
+    border: none;
+    padding: 13px;
+    color: white;
+    font-size: 20px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    margin-left: 0px;
+}
+button:hover{
+    box-shadow: rgb(212, 212, 100) 0px 6px 20px;
+}
+input{
+    background-color: rgb(209, 209, 209);
+    transition: box-shadow .3s ease-out;
+    border: none;
+    padding: 13px;
+    color: rgb(20, 20, 20);
+    font-size: 18px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    margin-left: 120px;
+    margin-right: -3px;
+
+}
